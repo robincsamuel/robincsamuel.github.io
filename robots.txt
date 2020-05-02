@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://robincsamuel.github.io/sitemap.xml

@@ -1,0 +1,21 @@
+languages:
+  - item: JavaScript
+  - item: PHP
+  - item: Python
+  - item: SQL
+
+frameworks:
+  - item: React.js
+  - item: Node.js
+  - item: Electron.js
+  - item: Express.js
+  - item: Laravel
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: VS Code
+
+databases:
+  - item: MySQL
+  - item: MongoDB

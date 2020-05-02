@@ -1,0 +1,41 @@
+# Site settings
+name: Robin C Samuel
+title: Robin C Samuel | Full-Stack Software Developer/Architect.
+description: Full-stack developer/architect, problem solver, quick learner, open-source enthusiast.
+url: https://robincsamuel.github.io/
+baseurl: ''
+email: hi@robinz.in
+cover: https://robincsamuel.github.io/img/og.png
+logo: https://robincsamuel.github.io/img/emojis/technologist.png
+resume: https://www.linkedin.com/in/robincsamuel
+social:
+  - title: email
+    url: mailto:hi@robinz.in
+  - title: twitter
+    url: https://twitter.com/robincsamuel
+  - title: github
+    url: https://github.com/robincsamuel
+  - title: linkedin
+    url: https://www.linkedin.com/in/robincsamuel
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

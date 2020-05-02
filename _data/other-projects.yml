@@ -1,0 +1,17 @@
+- name: Laravel MSG91
+  url: https://github.com/robincsamuel/laravel-msg91
+  code: https://github.com/robincsamuel/laravel-msg91
+  description: A PHP library for communicating with MSG91 API to send text messages.
+  used:
+    - thing: Laravel
+    - thing: SMS
+    - thing: PHP
+
+- name: Google drive plugin for ghost
+  url: https://github.com/robincsamuel/ghost-google-drive
+  code: https://github.com/robincsamuel/ghost-google-drive
+  description: Google drive storage adaptor for the popular blogging platform, ghost.
+  used:
+    - thing: Ghost
+    - thing: Node.js
+    - thing: Google APIs

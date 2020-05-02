@@ -1,0 +1,28 @@
+{
+  "name": "robinz.in",
+  "version": "0.0.0",
+  "description": "Full-stack developer/architect, problem solver, quick learner, open-source enthusiast.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robincsamuel/robincsamuel.github.io/"
+  },
+  "homepage": "https://robinz.in",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build"
+  },
+  "author": "Robin C Samuel",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "3.0.2"
+  }
+}
