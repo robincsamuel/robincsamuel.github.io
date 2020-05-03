@@ -10,12 +10,15 @@ frameworks:
   - item: Electron.js
   - item: Express.js
   - item: Laravel
+  - item: Flask
 
 tools:
   - item: Bash
-  - item: Git & Github
+  - item: Git
   - item: VS Code
+  - item: Prettier
 
 databases:
   - item: MySQL
   - item: MongoDB
+  - item: PostgreSQL
