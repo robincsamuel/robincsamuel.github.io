@@ -4,17 +4,17 @@
   name="viewport"
   content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 />
-<title>
-  {% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %} |
-  {{site.title}}
-</title>
+<title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title>
 <link rel="icon" type="image/png" href="{{site.logo}}" hreflang="en-us" />
 <meta
   property="og:title"
   content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"
 />
-<meta property="og:description" content="{% if page.description %}
-{{page.description}} {% else %} {{site.description}} {% endif %}" " />
+<meta
+  property="og:description"
+  content="{% if page.description
+%}{{page.description}}{% else %}{{site.description}}{% endif %}"
+/>
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}" />
 <meta property="og:site_name" content="{{site.name}}" />
