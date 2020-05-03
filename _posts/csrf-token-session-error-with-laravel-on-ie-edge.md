@@ -68,4 +68,4 @@ That's It!
 
 ### References
 
-https://github.com/laravel/framework/issues/2962#issuecomment-53048718
+[https://github.com/laravel/framework/issues/2962#issuecomment-53048718](https://github.com/laravel/framework/issues/2962#issuecomment-53048718)
