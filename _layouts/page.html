@@ -7,8 +7,11 @@ layout: compress
   <head>
     {% include head.html %}
   </head>
-  <body>
-    <div>
+  <body class="page">
+    {% include switch.html %}
+    <div class="name"><a href="/">Robin C Samuel</a></div>
+
+    <div class="content">
       {{ content }}
     </div>
     {% include scripts.html %}

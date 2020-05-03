@@ -21,6 +21,10 @@ social:
 # Build settings
 markdown: kramdown
 
+include:
+  - '_pages'
+  - '_posts'
+
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'

@@ -7,10 +7,12 @@ const scssPath = '_scss/**/*.scss';
 const jsPath = '_scripts/*.js';
 const templatePath = [
   '*.html',
+  '*.md',
   '+(_includes|_layouts)/*.html',
   '*.yml',
   '_data/*.yml',
   '_posts/*',
+  '_pages/*',
 ];
 
 module.exports = gulp => {
