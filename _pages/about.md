@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 404
+title: About me
 permalink: /about/
 ---
 

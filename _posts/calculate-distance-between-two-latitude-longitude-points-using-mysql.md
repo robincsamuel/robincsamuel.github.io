@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Calculate distance between two latitude – longitude points using MySQL.
+description: Here is a function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries.
 permalink: /calculate-distance-between-two-latitude-longitude-points-using-mysql/
 ---
 
 # Calculate distance between two latitude – longitude points using MySQL.
 
-I would like to share a MySQL function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries. Function accepts four parameters, source latitude, source longitude, destination latitude, destination longitude and returns the distance between the points in kilometers.
+Here is a function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries. Function accepts four parameters, source latitude, source longitude, destination latitude, destination longitude and returns the distance between the points in kilometers.
 
 ```mysql
 DELIMITER $$

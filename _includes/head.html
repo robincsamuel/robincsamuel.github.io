@@ -4,10 +4,17 @@
   name="viewport"
   content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 />
-<title>{{ site.title }}</title>
+<title>
+  {% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %} |
+  {{site.title}}
+</title>
 <link rel="icon" type="image/png" href="{{site.logo}}" hreflang="en-us" />
-<meta property="og:title" content="{{site.title}}" />
-<meta property="og:description" content="{{site.description}}" />
+<meta
+  property="og:title"
+  content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"
+/>
+<meta property="og:description" content="{% if page.description %}
+{{page.description}} {% else %} {{site.description}} {% endif %}" " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}" />
 <meta property="og:site_name" content="{{site.name}}" />
@@ -16,16 +23,31 @@
 <meta property="og:image:height" content="800" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="{{site.description}}" />
-<meta itemprop="name" content="{{site.title}}" />
-<meta itemprop="description" content="{{site.description}}" />
+<meta
+  name="description"
+  content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"
+/>
+<meta
+  itemprop="name"
+  content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"
+/>
+<meta
+  itemprop="description"
+  content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"
+/>
 <meta itemprop="image" content="{{site.cover}}" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:url" content="{{site.url}}" />
 <meta name="twitter:site" content="@robincsamuel" />
 <meta name="twitter:creator" content="@robincsamuel" />
-<meta name="twitter:title" content="{{site.title}}" />
-<meta name="twitter:description" content="{{site.description}}" />
+<meta
+  name="twitter:title"
+  content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"
+/>
+<meta
+  name="twitter:description"
+  content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"
+/>
 <meta name="twitter:image:src" content="{{site.cover}}" />
 <link
   href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"

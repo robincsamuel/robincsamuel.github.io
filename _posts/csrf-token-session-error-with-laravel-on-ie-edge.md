@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Calculate distance between two latitude – longitude points using MySQL.
+description: The problem was with storing the cookies on Internet Explorer and Edge browsers. After doing a lot of search, I came to understand that the issue is basically with P3P Policy.
 permalink: /csrf-token-session-error-with-laravel-on-ie-edge/
 ---
 
