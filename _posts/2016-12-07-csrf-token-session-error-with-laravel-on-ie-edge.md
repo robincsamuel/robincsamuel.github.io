@@ -9,9 +9,9 @@ comments: true
 
 Recently, I used laravel 5.2 for a project and faced a weird error with handling cookies. The problem was with storing the cookies on Internet Explorer and Edge browsers. After doing a lot of search, I came to understand that the issue is basically with P3P Policy.
 
-You could get a lot of answers if you do a search, but I got confused about how to implement those solutions. At last I was able to fix the issue using middleware, and thought of sharing the solution with the world.
+You could get a lot of answers if you do a search, but I got confused about how to implement those solutions. At last I was able to fix the issue using middleware, and thought I'll share my solution here.
 
-All you need to do is create a middleware and include the same in all routes,
+We can create a middleware to set the `P3P` header, and usethat for all the routes as shown below.
 
 ```php
 php artisan make:middleware IeFix

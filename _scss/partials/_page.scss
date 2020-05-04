@@ -5,11 +5,20 @@
   flex-direction: column;
   justify-content: center;
   padding: 6rem 0;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  @include large-desktop {
+    line-height: 3rem;
+    font-size: 1.7rem;
+  }
   @include mobile {
     padding: 3rem 0;
   }
+  pre {
+    overflow: scroll;
+  }
   .content {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     @include mobile {
       width: 90%;
@@ -18,8 +27,12 @@
       margin-bottom: 2rem;
     }
     .content-title {
+      line-height: 3rem;
       text-align: center;
       margin-bottom: 0;
+      @include large-desktop {
+        line-height: 5rem;
+      }
     }
     .comments {
       margin-top: 5rem;

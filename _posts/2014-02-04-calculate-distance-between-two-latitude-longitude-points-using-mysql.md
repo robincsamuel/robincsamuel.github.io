@@ -7,7 +7,7 @@ tags: ['laravel', 'csrf', 'session', 'ie', 'edge', 'p3p']
 comments: true
 ---
 
-Here is a function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries. Function accepts four parameters, source latitude, source longitude, destination latitude, destination longitude and returns the distance between the points in kilometers.
+Here is a mysql function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries. The function accepts four parameters, source latitude, source longitude, destination latitude, destination longitude and returns the distance between the points in kilometers.
 
 ```mysql
 DELIMITER $$
@@ -48,15 +48,19 @@ BEGIN
 END$$
 ```
 
-Run the above SQL query to create a function named ‘distance’. After executing the query, function can be used to calculate distance between two points. For example, Simple query
+The above SQL query will create a function named ‘distance’. After creating it, the function can be used to calculate distance between two points.
+
+A simple query with static inputs will look like this,
 
 ```mysql
 SELECT distance(9.992952,76.296208,10.014691,76.363939)
 ```
 
-### Query with Join
+And here is an example query using `join`
 
 ```mysql
 SELECT`id`, distance(9.992952,76.296208,`b`.`latitude`,`b`.`longitude`)
 FROM `a` JOIN `table` as `c` on `a`.`id` = `b`.`user_id`;
 ```
+
+The same math can be used to create similar function in any language. Let me know if you need help in porting this to any other language :)

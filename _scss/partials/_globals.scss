@@ -18,6 +18,7 @@ $font-stack: 'Source Sans Pro', system, system-ui, -apple-system,
   BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
 $Apercu: 'Apercu', $font-stack;
 // Media queries
+$fifteen-inch-plus: 1441px;
 $fifteen-inch: 1440px;
 $thirteen-inch: 1280px;
 $desktop-width: 1024px;
@@ -31,6 +32,12 @@ $tiny-mobile-width: 330px;
 
 @mixin transition {
   transition: all 0.2s ease-in-out;
+}
+
+@mixin large-desktop {
+  @media screen and (min-width: #{$fifteen-inch-plus}) {
+    @content;
+  }
 }
 
 @mixin thirteen {
