@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Develop a desktop application using PHP, HTML5, JavaScript & WebSql.
-description: I recently had to develop a desktop application real quick and `php-desktop` worked out. Php-desktop helped me to develop a clean native desktop application using technologies such as PHP, HTML5, JavaScript & Web Sql.
+description: Recently, I had to develop a hybrid desktop application and php-desktop worked out really well. Php-desktop helped me to develop a clean desktop application using PHP, HTML5, JavaScript & Web Sql.
 permalink: /develop-a-desktop-application-using-php-html5-javascript-websql/
 tags: ['javascript', 'html5', 'desktop']
 comments: true
 ---
 
-**IMPORTANT: This is something I did in 2014, and there are much better and easier options to develop a desktop application using HTML5, CSS and Javascript. Checkout [Electron.js](https://www.electronjs.org/){:target="\_blank"} instead.**
+**IMPORTANT: This is something I did in 2014, and there are much better and easier options to develop a desktop application using HTML5, CSS and Javascript now. Checkout [Electron.js](https://www.electronjs.org/){:target="\_blank"} instead.**
 
-I recently had to develop a desktop application real quick and `phpdesktop` worked out. Php-desktop helped me to develop a clean native desktop application using technologies such as PHP, HTML5, JavaScript & Web Sql. I'll introduce some tools for the development before I move on to the configuration part. In fact, we are just using some tools to wrap up the web application with a portable browser & server.
+Recently, I had to develop a hybrid desktop application and php-desktop worked out really well. Php-desktop helped me to develop a clean desktop application using PHP, HTML5, JavaScript & Web Sql. I'll introduce some tools for the development before I move on to the configuration part. In fact, we are just using some tools to wrap up the web application with a portable browser & server.
 
 ## Get the Tools
 
