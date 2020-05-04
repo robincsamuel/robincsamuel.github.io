@@ -9,9 +9,9 @@ permalink: /writings/
 ### [{{ post.title }}]({{post.url}})
 
 {:.date}
-
 <small>{{post.date | date: '%B %d, %Y' }}</small>
-
 {{post.excerpt}}
+[Read More]({{post.url}})
+<br><br>
 
 {% endfor %}
