@@ -14,6 +14,19 @@
     @include mobile {
       width: 90%;
     }
+    .content-head {
+      margin-bottom: 2rem;
+    }
+    .content-title {
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .comments {
+      margin-top: 5rem;
+    }
+    .date {
+      margin-top: 0;
+    }
   }
   .name {
     position: absolute;
@@ -52,4 +65,7 @@
       transform: translateY(-5px);
     }
   }
+}
+.text-center {
+  text-align: center;
 }

@@ -12,7 +12,18 @@ layout: compress
     <div class="name"><a href="/">Robin C Samuel</a></div>
 
     <div class="content">
+      <div class="content-head">
+        <h1 class="content-title">{{page.title}}</h1>
+        <p class="date text-center">
+          <small>{{page.date | date: '%B %d, %Y' }}</small>
+        </p>
+      </div>
+
       {{ content }}
+
+      <div class="comments">
+        {% if page.comments %} {% include comments.html %} {% endif %}
+      </div>
     </div>
     {% include scripts.html %}
   </body>
