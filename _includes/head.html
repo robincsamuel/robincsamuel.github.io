@@ -12,6 +12,7 @@
   property="og:title"
   content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"
 />
+
 <meta
   property="og:description"
   content="{% if page.description
@@ -20,7 +21,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}" />
 <meta property="og:site_name" content="{{site.name}}" />
-<meta property="og:image" content="{{site.cover}}" />
+<meta
+  property="og:image"
+  content="{% if page.image %}{{page.image}}{% else %}{{site.cover}}{% endif %}"
+/>
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="800" />
 <meta property="og:image:type" content="image/png" />
@@ -37,7 +41,10 @@
   itemprop="description"
   content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"
 />
-<meta itemprop="image" content="{{site.cover}}" />
+<meta
+  itemprop="image"
+  content="{% if page.image %}{{page.image}}{% else %}{{site.cover}}{% endif %}"
+/>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:url" content="{{site.url}}" />
 <meta name="twitter:site" content="@robincsamuel" />
@@ -50,7 +57,10 @@
   name="twitter:description"
   content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"
 />
-<meta name="twitter:image:src" content="{{site.cover}}" />
+<meta
+  name="twitter:image:src"
+  content="{% if page.image %}{{page.image}}{% else %}{{site.cover}}{% endif %}"
+/>
 <link
   href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
   rel="stylesheet"

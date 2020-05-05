@@ -2,6 +2,7 @@
 layout: page
 title: How to programatically convert an HTML5 slideshow to a video using Node.js, Puppeteer & FFMPEG.
 description: When it comes to making a video programatically, the first choice is mostly FFMPEG. But that wasn't enough for me to convert an HTML5 slideshow to video, then I met Puppeteer.
+image: /img/posts/html5-video.jpg
 permalink: /convert-an-html5-slideshow-to-a-video/
 tags: ['html4', 'video', 'node.js']
 comments: true
