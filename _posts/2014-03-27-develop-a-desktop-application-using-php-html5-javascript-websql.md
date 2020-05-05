@@ -7,7 +7,7 @@ tags: ['javascript', 'html5', 'desktop']
 comments: true
 ---
 
-**IMPORTANT: This is something I did in 2014, and there are much better and easier options to develop a desktop application using HTML5, CSS and Javascript now. Checkout [Electron.js](https://www.electronjs.org/){:target="\_blank"} instead.**
+**IMPORTANT: This is something I did in 2014, and there are much better and easier options to develop a desktop application using HTML5, CSS and Javascript now. Check out [Electron.js](https://www.electronjs.org/){:target="\_blank"} instead.**
 
 Recently, I had to develop a hybrid desktop application and php-desktop worked out really well. Php-desktop helped me to develop a clean desktop application using PHP, HTML5, JavaScript & Web Sql. I'll introduce some tools for the development before I move on to the configuration part. In fact, we are just using some tools to wrap up the web application with a portable browser & server.
 
