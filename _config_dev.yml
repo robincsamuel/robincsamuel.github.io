@@ -2,7 +2,7 @@
 name: Robin C Samuel
 title: Robin C Samuel | Full-Stack Software Developer/Architect.
 description: a full-stack developer cum architect focused on building secure and scalable software applications.
-url: https://robinz.in/
+url: https://robinz.in
 baseurl: ''
 email: hi@robinz.in
 cover: https://robinz.in/img/og.png
@@ -42,4 +42,3 @@ keep_files:
 
 plugins_dir:
   - jekyll-minifier
-  - jekyll-sitemap
