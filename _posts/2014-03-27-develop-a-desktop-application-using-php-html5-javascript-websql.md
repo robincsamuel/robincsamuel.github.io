@@ -33,7 +33,7 @@ I'm covering the major options below, but I would recommend going through the do
 
 Update the following option in the `settings.json` file.
 
-```
+```ini
 show_console = false
 listen_on = ["127.0.0.1", 0]
 ```
@@ -48,7 +48,7 @@ Set the `cache_path` from `webcache` to `C:/ProgramData/YouApplicationName/`, to
 
 And if we need access to HTML5 apis like `getUserMedia`, we have to add a flag to `command_line_switches`. A list of flags supported by chromium can be found [here](https://peter.sh/experiments/chromium-command-line-switches/){:target="\_blank"}.
 
-```
+```json
 "command_line_switches": {"enable-media-stream":""}
 ```
 
@@ -56,7 +56,7 @@ And if we need access to HTML5 apis like `getUserMedia`, we have to add a flag t
 
 For example, adding `–enable-accelerated-2d-canvas` flag would look like this,
 
-```
+```json
 "command_line_switches": {"enable-media-stream":"", "enable-accelerated-2d-canvas":"", }
 ```
 

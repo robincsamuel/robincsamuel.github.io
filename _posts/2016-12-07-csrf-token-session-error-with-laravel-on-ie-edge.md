@@ -13,7 +13,7 @@ You could get a lot of answers if you do a search, but I got confused about how 
 
 We can create a middleware to set the `P3P` header, and usethat for all the routes as shown below.
 
-```php
+```bash
 php artisan make:middleware IeFix
 ```
 

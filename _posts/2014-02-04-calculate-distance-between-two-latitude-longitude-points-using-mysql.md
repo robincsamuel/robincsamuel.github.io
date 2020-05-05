@@ -9,7 +9,7 @@ comments: true
 
 Here is a mysql function to calculate distance between two latitude – longitude points. This function can be used to calculate distance either using input values or SQL join queries. The function accepts four parameters, source latitude, source longitude, destination latitude, destination longitude and returns the distance between the points in kilometers.
 
-```mysql
+```sql
 DELIMITER $$
 CREATE FUNCTION `distance`(Q_LAT FLOAT, Q_LONG FLOAT, NAV_LAT FLOAT, NAV_LONG FLOAT) RETURNS float
 BEGIN
