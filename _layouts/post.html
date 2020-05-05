@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="page">
+    {% include switch.html %}
+    <div class="name"><a href="/writings">❮ Back</a></div>
+
+    <div class="content">
+      <div class="content-head">
+        <h1 class="content-title">{{page.title}}</h1>
+        <p class="date text-center">
+          <small>{{page.date | date: '%B %d, %Y' }}</small>
+        </p>
+      </div>
+
+      {{ content }}
+
+      <div class="comments">
+        {% if page.comments %} {% include comments.html %} {% endif %}
+      </div>
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

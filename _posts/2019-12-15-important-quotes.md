@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Quotes that made me a better programmer.
 description: I'm sharing a few quotes I have in my notes for the past couple of years and I believe considering these things made my code quality and planning better.
 permalink: /few-quotes-to-become-a-better-programmer/

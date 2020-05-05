@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Develop a desktop application using PHP, HTML5, JavaScript & WebSql.
 description: Recently, I had to develop a hybrid desktop application and php-desktop worked out really well. Php-desktop helped me to develop a clean desktop application using PHP, HTML5, JavaScript & Web Sql.
 permalink: /develop-a-desktop-application-using-php-html5-javascript-websql/
