@@ -1,10 +1,6 @@
-# v3
+# Robinz.in
 
-Third iteration of my personal website built with Jekyll.
-
-> 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
->
-> Please be a decent person and give me proper credit by linking back to my website! Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure.
+This repo is a clone of Brittany Chiang's personal website (https://github.com/bchiang7/bchiang7.github.io). However this is not a fork, and I've made extensive modifications.
 
 ## Dependencies
 
@@ -15,3 +11,8 @@ Third iteration of my personal website built with Jekyll.
 1.  `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
 2.  `npm install`
 3.  `npm start`
+
+## Credits
+
+- https://github.com/bchiang7/bchiang7.github.io
+- https://github.com/liamdawson/nightowl-pygments-style
