@@ -45,16 +45,17 @@ const height = 720;
 const url = '<your webpage url>';
 const tempPath = '/tmp/';
 
-puppeteer.launch({ headless: true }).then(async browser => {
+async () => {
+  const brower = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   page.setViewport({ width, height });
-  await page.goto(url, { waitUntil: 'networkidle' });
+  await page.goto(url, { waitUntil: 'networkidle2' });
   await page.waitFor('.page-ready');
 
   const captureFrame = async () => {}; // we'll define this below.
 
   await captureFrame();
-});
+}();
 ```
 
 The above code snippet initializes puppeteer and navigate to the webpage url and then executes the `captureFrame` method once the page is ready.
