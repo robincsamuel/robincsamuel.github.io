@@ -1,3 +1,7 @@
 User-agent: *
 Disallow:
+
+User-agent: Googlebot
+allow: 
+
 Sitemap: https://robinz.in/sitemap.xml
