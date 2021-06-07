@@ -9,7 +9,7 @@ $(function() {
     night =
       (window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches) ||
-      houdrs >= 19 ||
+      hours >= 19 ||
       hours <= 7; // between 7pm and 7am or if preference is dark
   }
 
